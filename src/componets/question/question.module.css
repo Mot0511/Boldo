@@ -1,0 +1,50 @@
+.question p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+.question{
+    width: 500px;
+    border-bottom: 1px solid #C4C4C4;
+    display: flex;
+    padding-bottom: 10px;
+    position: relative;
+    margin-top: 20px;
+}
+.show{
+    width: 40px;
+    height: 40px;
+    background-color: #0A2640;
+    border-radius: 28px;
+    background-size: 80%;
+    background-position: center;
+    margin-left: 10px;
+    margin-top: -5px;
+    position: absolute;
+    right: 0;
+}
+.show:hover{
+    background-color: #0A2640;
+    background-size: 80%;
+    background-position: center;
+}
+.answer{
+    padding-top: 10px;
+    width: 500px;
+    display: none;
+}
+@media screen and (max-width: 1300px){
+    .show{
+        width: 100px;
+        height: 100px;
+        right: -60px;
+    }
+    .question p{
+        font-size: 50px;
+        line-height: 45px;
+    }
+    .answer p{
+        font-size: 30px;
+    }
+}

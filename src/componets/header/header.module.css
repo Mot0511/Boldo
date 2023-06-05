@@ -1,0 +1,89 @@
+.header{
+    width: 100vw;
+    height: 140px;
+    display: flex;
+    padding-left: 9%;
+    padding-right: 9%
+}
+.heading{
+    display: flex;
+    width: 20%;
+    align-items: center;
+}
+.heading img{
+    margin-left: 20px;
+    width: 163px;
+}
+.menu{
+    display: flex;
+    width: 60%;
+    justify-content: end;
+    align-items: center;
+}
+.menu a{
+    color: white;
+    margin-right: 40px;
+}
+.menu a:hover{
+    color: #4f4f4f;
+}
+.mobileMenu{
+    width: 40%;
+    margin-top: 20px;
+    position: absolute;
+    right: 0;
+}
+.mobileMenu div {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.gamburger{
+    width: 100px;
+    height: 100px;
+    background: none;
+    border: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mobileMenuList{
+    width: 100%;
+    height: 430%;
+    display: none;
+    position: absolute;
+    top: 150px;
+    background-color: #0A2640;
+    padding-top: 20px;
+    z-index: 1;
+}
+.mobileMenuList a{
+    color: white;
+    font-size: 60px;
+    margin-left: 20px;
+}
+.mobileMenuList button{
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 300px;
+    height: 50px;
+    font-size: 35px;
+}
+button:hover {
+    background: none;
+    color: white;
+}
+@media screen and (max-width: 1300px){
+    .heading img{
+        width: 400px;
+        margin-top: -80px;
+    }
+    .header{
+        padding-left: 3%;
+        position: relative;
+        width: 85%;
+    }
+    .heading{
+        width: 30%;
+        margin-top: 100px;
+    }
+}

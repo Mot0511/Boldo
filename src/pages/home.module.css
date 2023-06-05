@@ -1,0 +1,381 @@
+
+.block1{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.block1 div{
+    position: relative;
+    top: 100px;
+    opacity: 0;
+    transition: all 1s;
+}
+.block1 p{
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+.heading{
+    font-size: 48px;
+    line-height: 72px;
+}
+.description{
+    font-size: 16px;
+    line-height: 28px;
+}
+.buyBt{
+    width: 247px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #69E6A6;
+    border-radius: 56px;
+    margin-top: 30px;
+    border: 3px solid #69E6A6;
+}
+.explore{
+    width: 187px;
+    height: 60px;
+    border: 3px solid #FFFFFF;
+    border-radius: 56px;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.block2{
+    margin-top:50px;
+}
+.main{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.headingBlock{
+    font-size: 48px;
+    line-height: 72px;
+    color: black;
+}
+.integrations{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    position: relative;
+    top: 100px;
+    opacity: 0;
+    transition: all 1s;
+}
+.block3{
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+    transition: all 1s;
+    position: relative;
+    left: -300px;
+    opacity: 0;
+}
+
+.block3 div{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.block3 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+}
+.block3 img{
+    width: 494px;
+    height: auto;
+}
+.block3 button{
+    width: 493px;
+    height: 60px;
+    background: #0A2640;
+    border: 4px solid #0A2640;
+    border-radius: 56px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: white;
+    margin-top: 20px;
+}
+.block3 button:hover{
+    background: none;
+    color: #0A2640;
+}
+.block3 div ul{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    list-style: none;
+}
+.tab{
+    width: 500px;
+    height: 30px;
+    display: flex;
+    box-shadow: 0 4px 32px rgba(0, 0, 0, 0.08);
+    margin-top: 20px;
+    padding: 16px;
+    position: relative;
+    right: 50px;
+}
+.tab:hover{
+    background-color: black;
+    border-radius: 4px;
+}
+.tab img{
+    width: 28px;
+    height: 28px;
+}
+.tab p{
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+}
+.block4{
+    width: 100%;
+    height: 797px;
+    background-color: black;
+    margin-top: 50px;
+    padding-right: 20%;
+}
+.block4H{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    position: relative;
+    top: 62px;
+    color: white;
+    left: 21%;
+
+}
+.reviews{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.controls{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.controls button{
+    width: 72px;
+    height: 72px;
+    font-size: 35px;
+    border-radius: 100px;
+    margin-right: 10px;
+    border: 3px solid white;
+}
+.carouselView{
+    overflow-x: hidden;
+    width: 1090px;
+}
+.carouselContent{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100vw;
+}
+.block5{
+    display: flex;
+    margin-top: 83px;
+    justify-content: center;
+    margin-right: 50px;
+
+}
+.block5 img{
+    position: relative;
+    left: -300px;
+    opacity: 0;
+    transition: all 1s;
+}
+.block5 div{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    right: -300px;
+    transition: all 1s;
+    opacity: 0;
+}
+.someTextDown{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+    margin-top: 100px;
+    position: relative;
+    top: 100px;
+    opacity: 0;
+    transition: all 1s;
+}
+.someTextDown2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+}
+.block6{
+    padding-top: 100px;
+    position: relative;
+    top: 300px;
+    opacity: 0;
+    transition: all 1s;
+}
+.posts{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.loadmore{
+    width: 219px;
+    height: 60px;
+    border: 2px solid #0A2640;
+    border-radius: 15px;
+    color: #0A2640;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: 50px;
+}
+.loadmore:hover{
+    background-color: #0A2640;
+}
+.block7{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.email{
+    width: 1200px;
+    height: 391px;
+    background-color: black;
+    border-radius: 12px;
+    padding-top: 72px;
+    position: relative;
+    left: -300px;
+    opacity: 0;
+}
+.email p{
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    color: white;
+}
+.email div{
+    margin-top: 50px;
+}
+.input{
+    width: 370px;
+    height: 56px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+.input::placeholder, .input{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+.email button{
+    width: 210px;
+    height: 60px;
+    background-color: #65E4A3;
+    border: 3px solid #65E4A3;
+    border-radius: 15px;
+    margin-left: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+}
+.email button:hover{
+    background: none;
+}
+@media screen and (max-width: 1300px){
+    .loadmore{
+        width: 100vw;
+        height: 100px;
+        font-size: 40px;
+    }
+    .posts{
+        width: 100%;
+        margin-left: 50px;
+        flex-wrap: wrap;
+    }
+    .someTextDown, .someTextDown2{
+        font-size: 70px;
+        line-height: 80px;
+    }
+    .block5 img{
+        display: none;
+    }
+    .block4{
+        width: 120vw;
+        height: 1100px;
+    }
+    .controls button{
+        width: 200px;
+        height: 200px;
+        font-size: 80px;
+    }
+    .block4H{
+        font-size: 70px;
+    }
+    .block3{
+        margin-left: 50%;
+    }
+    .block3 p{
+        font-size: 30px;
+    }
+    .block3 li{
+        font-size: 20px;
+    }
+    .tab{
+        height: 70px;
+    }
+    .tabP{
+        font-size: 100px;
+    }
+    .headingBlock{
+        font-size: 60px;
+        width: 100vw;
+    }
+    .integrations{
+        flex-wrap: wrap;
+        width: 100vw;
+    }
+    .buyBt, .explore{
+        width: 50%;
+        height: 100px;
+        font-size: 40px;
+        margin-top: 60px;
+    }
+    .heading{
+        font-size: 80px;
+        line-height: 100px;
+    }
+    .description{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .block1 div{
+        height: 100%;
+    }
+}
