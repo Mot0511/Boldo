@@ -49,8 +49,8 @@ const Home = () => {
             $('#block32').css({marginRight: '0', opacity: '1'}, 0)
         })
         inView('#block5').once('enter', () => {
-            leftAnim('.'+cl.block5+' img')
-            rightAnim('.'+cl.block5+' div')
+            leftAnim('#block5 img')
+            rightAnim('#block5 div')
         })
         inView('.'+cl.someTextDown).once('enter', () => {
             topAnim('.'+cl.someTextDown)
@@ -58,8 +58,8 @@ const Home = () => {
         inView('.'+cl.block6).once('enter', () => {
             topAnim('.'+cl.block6)
         })
-        inView('.'+cl.email).once('enter', () => {
-            leftAnim('.'+cl.email)
+        inView('#email').once('enter', () => {
+            leftAnim('#email')
         })
 
 
@@ -154,7 +154,7 @@ const Home = () => {
             </div>
             <center><button className={cl.loadmore}>Load more</button></center>
             <div className={cl.block7}>
-                <div className={cl.email}>
+                <div className={cl.email} id={'email'}>
                     <p>An enterprise template to ramp <br/> up your company website</p>
                     <div style={{display: 'flex', justifyContent: 'center'}}>
                         <input type="text" className={cl.input} placeholder={'Your email address'} />

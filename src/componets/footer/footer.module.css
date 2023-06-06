@@ -1,10 +1,9 @@
 .footer{
     margin-top: 184px;
-    padding-left: 100px;
+    padding-left: 300px;
     height: 300px;
     display: flex;
 }
-
 .footer div{
    height: 100%;
 }

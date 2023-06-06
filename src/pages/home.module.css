@@ -45,7 +45,7 @@
     margin-top:50px;
 }
 .main{
-    padding-left: 20%;
+    padding-left: 35%;
     padding-right: 20%;
 }
 .headingBlock{
@@ -235,7 +235,7 @@
     display: flex;
     justify-content: center;
     margin-top: 50px;
-
+    margin-left: -150px;
 }
 .loadmore{
     width: 219px;
@@ -265,7 +265,7 @@
     border-radius: 12px;
     padding-top: 72px;
     position: relative;
-    left: -300px;
+    margin-left: 150px;
     opacity: 0;
 }
 .email p{
