@@ -19,6 +19,7 @@ const Home = () => {
         $(element).css({top: '0', opacity: '1'}, 0)
     }
     useEffect(() => {
+        console.log((cl.block5));
         $('#tab1').hover(() => {
             $('#tab1 p').css({'color': 'white'})
         }, () => {
@@ -47,7 +48,7 @@ const Home = () => {
         inView('#block32').once('enter', () => {
             $('#block32').css({marginRight: '0', opacity: '1'}, 0)
         })
-        inView('.'+(cl.block5).slice(0, -1)).once('enter', () => {
+        inView('#block5').once('enter', () => {
             leftAnim('.'+cl.block5+' img')
             rightAnim('.'+cl.block5+' div')
         })
@@ -134,7 +135,7 @@ const Home = () => {
                 </div>
             </div>
             <div className={cl.main}>
-                <div className={(cl.block5).slice(0, -1)}>
+                <div className={cl.block5} id={'block5'}>
                     <img src={require('../img/room.png')} alt=""/>
                     <div>
                         <Question q={'We connect our customers with the best?'} id={1} answer={'Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer Answer '} />
